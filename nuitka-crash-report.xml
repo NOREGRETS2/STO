@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.2.3" nuitka_commercial_version="not installed" completion="error exit message (1)" exit_message="Failed unexpectedly in Scons C backend compilation.">
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${cwd}\main.py">
+    <optimization-time pass="1" time="0.26" />
+    <optimization-time pass="2" time="0.02" />
+    <module_usages>
+      <module_usage name="site" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="pywin32_bootstrap" finding="absolute" line="1" />
+      <module_usage name="tkinter" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="tkinter" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="tkinter" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="PIL" finding="absolute" line="4" />
+      <module_usage name="PIL.Image" finding="relative" line="4" />
+      <module_usage name="PIL.ImageTk" finding="relative" line="4" />
+      <module_usage name="tkinter" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="tkinter.filedialog" finding="relative" line="5" />
+      <module_usage name="shutil" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="docx" finding="absolute" line="7" />
+      <module_usage name="docx.Document" finding="not-found" line="7" />
+      <module_usage name="processing_CFG_in_txt" finding="absolute" line="43" />
+      <module_usage name="E_check" finding="absolute" line="43" />
+      <module_usage name="a_check" finding="absolute" line="43" />
+      <module_usage name="k_check" finding="absolute" line="43" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="39444480" />
+    <memory_usage name="before_c_code_generation" value="41287680" />
+    <memory_usage name="before_running_scons" value="43532288" />
+  </performance>
+  <data_composer blob_size="3518" total="226">
+    <module_data filename="__bytecode.const" input_size="0" blob_name=".bytecode" blob_size="3" />
+    <module_data filename="__constants.const" input_size="2082" blob_name="" blob_size="897" />
+    <module_data filename="module.__main__.const" input_size="4088" blob_name="__main__" blob_size="2578" />
+  </data_composer>
+  <command_line>
+    <option value="main.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}\python.exe" python_flavor="CPython Official" python_version="3.9.13" os_name="Windows" os_release="10" arch_name="x86_64">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.prefix}\DLLs" />
+      <path value="${sys.prefix}\lib" />
+      <path value="${sys.prefix}" />
+      <path value="${sys.prefix}\lib\site-packages" />
+      <path value="${sys.prefix}\lib\site-packages\win32" />
+      <path value="${sys.prefix}\lib\site-packages\win32\lib" />
+      <path value="${sys.prefix}\lib\site-packages\Pythonwin" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}\main.cmd" />
+</nuitka-compilation-report>

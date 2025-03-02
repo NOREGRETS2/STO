@@ -1,0 +1,4 @@
+pyinstaller --onefile --windowed --icon=inside/ico_g.ico start.py main.py processing_CFG_in_txt.py E_check.py a_check.py k_check.py m_check.py s_check.py output_on_file.py
+
+
+pyinstaller --onefile --windowed --icon=inside/ico_pr.ico start.py
